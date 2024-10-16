@@ -311,64 +311,150 @@ public:
 int main() {
     Grafo metro_recife (29);
 
-    //Ligações entre as estacões do metro de Recife baseado no site  https://www.metrorecife.com.br/
         metro_recife.add_aresta("Recife", "Joana Bezerra", 5);
-        metro_recife.add_aresta("Joana Bezerra", "Recife", 5);
-        metro_recife.add_aresta("Joana Bezerra", "Afogados", 6);
-        metro_recife.add_aresta("Joana Bezerra", "Largo da Paz", 5);
-        metro_recife.add_aresta("Afogados", "Joana Bezerra", 6);
-        metro_recife.add_aresta("Afogados", "Ipiranga", 3);
-        metro_recife.add_aresta("Ipiranga", "Afogados", 4);
-        metro_recife.add_aresta("Ipiranga", "Mangueira", 3);
-        metro_recife.add_aresta("Mangueira", "Ipiranga", 3);
-        metro_recife.add_aresta("Mangueira", "Santa Luzia", 4);
-        metro_recife.add_aresta("Santa Luzia", "Mangueira", 4);
-        metro_recife.add_aresta("Santa Luzia", "Werneck", 4);
-        metro_recife.add_aresta("Werneck", "Santa Luzia", 4);
-        metro_recife.add_aresta("Werneck", "Barro", 4);
-        metro_recife.add_aresta("Barro", "Werneck", 5);
-        metro_recife.add_aresta("Barro", "Tejipio", 5);
-        metro_recife.add_aresta("Tejipio", "Barro", 5);
-        metro_recife.add_aresta("Tejipio", "Coqueiral", 4);
-        metro_recife.add_aresta("Coqueiral", "Tejipio", 4);
-        metro_recife.add_aresta("Coqueiral", "Alto do Ceu", 6);
-        metro_recife.add_aresta("Coqueiral", "Cavaleiro", 4);
-        metro_recife.add_aresta("Alto do Ceu", "Coqueiral", 6);
-        metro_recife.add_aresta("Alto do Ceu", "Curado", 4);
-        metro_recife.add_aresta("Curado", "Alto do Ceu", 4);
-        metro_recife.add_aresta("Curado", "Rodoviaria", 5);
-        metro_recife.add_aresta("Rodoviaria", "Curado", 5);
-        metro_recife.add_aresta("Rodoviaria", "Cosme e Damiao", 5);
-        metro_recife.add_aresta("Cosme e Damiao", "Rodoviaria", 5);
-        metro_recife.add_aresta("Cosme e Damiao", "Camaragibe", 6);
-        metro_recife.add_aresta("Camaragibe", "Cosme e Damiao", 6);
-        metro_recife.add_aresta("Cavaleiro", "Coqueiral", 4);
-        metro_recife.add_aresta("Cavaleiro", "Floriano", 12);
-        metro_recife.add_aresta("Floriano", "Cavaleiro", 12);
-        metro_recife.add_aresta("Floriano", "Engenho Velho", 5);
-        metro_recife.add_aresta("Engenho Velho", "Floriano", 5);
-        metro_recife.add_aresta("Engenho Velho", "Jaboatao", 5);
-        metro_recife.add_aresta("Jaboatao", "Engenho Velho", 5);
-        metro_recife.add_aresta("Largo da Paz", "Joana Bezerra", 6);
-        metro_recife.add_aresta("Largo da Paz", "Imbiribeira", 4);
-        metro_recife.add_aresta("Imbiribeira", "Largo da Paz", 4);
-        metro_recife.add_aresta("Imbiribeira", "Antonio Falcao", 10);
-        metro_recife.add_aresta("Antonio Falcao", "Imbiribeira", 10);
-        metro_recife.add_aresta("Antonio Falcao", "Shopping", 3);
-        metro_recife.add_aresta("Shopping", "Antonio Falcao", 3);
-        metro_recife.add_aresta("Shopping", "Tancredo Neves", 3);
-        metro_recife.add_aresta("Tancredo Neves", "Shopping", 3);
-        metro_recife.add_aresta("Tancredo Neves", "Aeroporto", 6);
-        metro_recife.add_aresta("Aeroporto", "Tancredo Neves", 6);
-        metro_recife.add_aresta("Aeroporto", "Porta Larga", 6);
-        metro_recife.add_aresta("Porta Larga", "Aeroporto", 6);
-        metro_recife.add_aresta("Porta Larga", "Monte dos Guararapes", 4);
-        metro_recife.add_aresta("Monte dos Guararapes", "Porta Larga", 4);
-        metro_recife.add_aresta("Monte dos Guararapes", "Prazeres", 4);
-        metro_recife.add_aresta("Prazeres", "Monte dos Guararapes", 4);
-        metro_recife.add_aresta("Prazeres", "Cajueiro Seco", 5);
-        metro_recife.add_aresta("Cajueiro Seco", "Prazeres", 5);
+    metro_recife.add_aresta("Recife", "Cajueiro Seco", 70);
+    metro_recife.add_aresta("Recife", "Camaragibe", 83);
+    metro_recife.add_aresta("Recife", "Jaboatao", 74);
 
+    metro_recife.add_aresta("Joana Bezerra", "Afogados", 6);
+    metro_recife.add_aresta("Joana Bezerra", "Largo da Paz", 5);
+    metro_recife.add_aresta("Joana Bezerra", "Recife", 5);
+    metro_recife.add_aresta("Joana Bezerra", "Cajueiro Seco", 65);
+    metro_recife.add_aresta("Joana Bezerra", "Camaragibe", 77);
+    metro_recife.add_aresta("Joana Bezerra", "Jaboatao", 59);
+
+    metro_recife.add_aresta("Afogados", "Joana Bezerra", 6);
+    metro_recife.add_aresta("Afogados", "Ipiranga", 3);
+    metro_recife.add_aresta("Afogados", "Recife", 11);
+    metro_recife.add_aresta("Afogados", "Camaragibe", 66);
+    metro_recife.add_aresta("Afogados", "Jaboatao", 57);
+
+    metro_recife.add_aresta("Ipiranga", "Afogados", 4);
+    metro_recife.add_aresta("Ipiranga", "Mangueira", 3);
+    metro_recife.add_aresta("Ipiranga", "Recife", 20);
+    metro_recife.add_aresta("Ipiranga", "Camaragibe", 68);
+    metro_recife.add_aresta("Ipiranga", "Jaboatao", 60);
+
+    metro_recife.add_aresta("Mangueira", "Ipiranga", 3);
+    metro_recife.add_aresta("Mangueira", "Santa Luzia", 4);
+    metro_recife.add_aresta("Mangueira", "Recife", 24);
+    metro_recife.add_aresta("Mangueira", "Camaragibe", 64);
+    metro_recife.add_aresta("Mangueira", "Jaboatao", 55);
+
+    metro_recife.add_aresta("Santa Luzia", "Mangueira", 4);
+    metro_recife.add_aresta("Santa Luzia", "Werneck", 4);
+    metro_recife.add_aresta("Santa Luzia", "Recife", 29);
+    metro_recife.add_aresta("Santa Luzia", "Camaragibe", 59);
+    metro_recife.add_aresta("Santa Luzia", "Jaboatao", 50);
+
+    metro_recife.add_aresta("Werneck", "Santa Luzia", 4);
+    metro_recife.add_aresta("Werneck", "Barro", 4);
+    metro_recife.add_aresta("Werneck", "Recife", 32);
+    metro_recife.add_aresta("Werneck", "Camaragibe", 56);
+    metro_recife.add_aresta("Werneck", "Jaboatao", 47);
+
+    metro_recife.add_aresta("Barro", "Werneck", 5);
+    metro_recife.add_aresta("Barro", "Tejipio", 5);
+    metro_recife.add_aresta("Barro", "Recife", 37);
+    metro_recife.add_aresta("Barro", "Camaragibe", 51);
+    metro_recife.add_aresta("Barro", "Jaboatao", 42);
+
+    metro_recife.add_aresta("Tejipio", "Barro", 5);
+    metro_recife.add_aresta("Tejipio", "Coqueiral", 4);
+    metro_recife.add_aresta("Tejipio", "Recife", 42);
+    metro_recife.add_aresta("Tejipio", "Camaragibe", 46);
+    metro_recife.add_aresta("Tejipio", "Jaboatao", 37);
+
+    metro_recife.add_aresta("Coqueiral", "Tejipio", 4);
+    metro_recife.add_aresta("Coqueiral", "Cavaleiro", 4);
+    metro_recife.add_aresta("Coqueiral", "Alto do Ceu", 6);
+    metro_recife.add_aresta("Coqueiral", "Recife", 46);
+    metro_recife.add_aresta("Coqueiral", "Camaragibe", 42);
+    metro_recife.add_aresta("Coqueiral", "Jaboatao", 33);
+
+    metro_recife.add_aresta("Alto do Ceu", "Coqueiral", 6);
+    metro_recife.add_aresta("Alto do Ceu", "Curado", 4);
+    metro_recife.add_aresta("Alto do Ceu", "Camaragibe", 31);
+    metro_recife.add_aresta("Alto do Ceu", "Recife", 47);
+
+    metro_recife.add_aresta("Curado", "Alto do Ceu", 4);
+    metro_recife.add_aresta("Curado", "Rodoviaria", 5);
+    metro_recife.add_aresta("Curado", "Camaragibe", 26);
+    metro_recife.add_aresta("Curado", "Recife", 52);
+
+    metro_recife.add_aresta("Rodoviaria", "Curado", 5);
+    metro_recife.add_aresta("Rodoviaria", "Cosme e Damiao", 5);
+    metro_recife.add_aresta("Rodoviaria", "Camaragibe", 14);
+    metro_recife.add_aresta("Rodoviaria", "Recife", 57);
+
+    metro_recife.add_aresta("Cosme e Damiao", "Rodoviaria", 5);
+    metro_recife.add_aresta("Cosme e Damiao", "Camaragibe", 6);
+    metro_recife.add_aresta("Cosme e Damiao", "Recife", 70);
+
+    metro_recife.add_aresta("Camaragibe", "Cosme e Damiao", 6);
+    metro_recife.add_aresta("Camaragibe", "Recife", 77);
+
+    metro_recife.add_aresta("Cavaleiro", "Floriano", 12);
+    metro_recife.add_aresta("Cavaleiro", "Coqueiral", 4);
+    metro_recife.add_aresta("Cavaleiro", "Jaboatao", 24);
+    metro_recife.add_aresta("Cavaleiro", "Recife", 45);
+
+    metro_recife.add_aresta("Floriano", "Engenho Velho", 5);
+    metro_recife.add_aresta("Floriano", "Cavaleiro", 12);
+    metro_recife.add_aresta("Floriano", "Jaboatao", 11);
+    metro_recife.add_aresta("Floriano", "Recife", 58);
+
+    metro_recife.add_aresta("Engenho Velho", "Floriano", 5);
+    metro_recife.add_aresta("Engenho Velho", "Recife", 68);
+
+    metro_recife.add_aresta("Jaboatao", "Engenho Velho", 5);
+    metro_recife.add_aresta("Jaboatao", "Recife", 68);
+
+    metro_recife.add_aresta("Largo da Paz", "Imbiribeira", 4);
+    metro_recife.add_aresta("Largo da Paz", "Joana Bezerra", 6);
+    metro_recife.add_aresta("Largo da Paz", "Cajueiro Seco", 45);
+    metro_recife.add_aresta("Largo da Paz", "Recife", 12);
+
+    metro_recife.add_aresta("Imbiribeira", "Antonio Falcao", 10);
+    metro_recife.add_aresta("Imbiribeira", "Largo da Paz", 4);
+    metro_recife.add_aresta("Imbiribeira", "Cajueiro Seco", 41);
+    metro_recife.add_aresta("Imbiribeira", "Recife", 16);
+
+    metro_recife.add_aresta("Antonio Falcao", "Shopping", 3);
+    metro_recife.add_aresta("Antonio Falcao", "Imbiribeira", 10);
+    metro_recife.add_aresta("Antonio Falcao", "Cajueiro Seco", 31);
+    metro_recife.add_aresta("Antonio Falcao", "Recife", 26);
+
+    metro_recife.add_aresta("Shopping", "Tancredo Neves", 3);
+    metro_recife.add_aresta("Shopping", "Antonio Falcao", 3);
+    metro_recife.add_aresta("Shopping", "Cajueiro Seco", 28);
+    metro_recife.add_aresta("Shopping", "Recife", 29);
+
+    metro_recife.add_aresta("Tancredo Neves", "Aeroporto", 6);
+    metro_recife.add_aresta("Tancredo Neves", "Shopping", 3);
+    metro_recife.add_aresta("Tancredo Neves", "Cajueiro Seco", 25);
+    metro_recife.add_aresta("Tancredo Neves", "Recife", 32);
+
+    metro_recife.add_aresta("Aeroporto", "Tancredo Neves", 6);
+    metro_recife.add_aresta("Aeroporto", "Cajueiro Seco", 20);
+    metro_recife.add_aresta("Aeroporto", "Recife", 38);
+
+    metro_recife.add_aresta("Porta Larga", "Monte dos Guararapes", 4);
+    metro_recife.add_aresta("Porta Larga", "Aeroporto", 6);
+    metro_recife.add_aresta("Porta Larga", "Cajueiro Seco", 13);
+    metro_recife.add_aresta("Porta Larga", "Recife", 52);
+
+    metro_recife.add_aresta("Monte dos Guararapes", "Prazeres", 4);
+    metro_recife.add_aresta("Monte dos Guararapes", "Porta Larga", 4);
+    metro_recife.add_aresta("Monte dos Guararapes", "Cajueiro Seco", 9);
+    metro_recife.add_aresta("Monte dos Guararapes", "Recife", 48);
+
+    metro_recife.add_aresta("Prazeres", "Cajueiro Seco", 5);
+    metro_recife.add_aresta("Prazeres", "Monte dos Guararapes", 4);
+
+    metro_recife.add_aresta("Cajueiro Seco", "Prazeres", 5);
+    metro_recife.add_aresta("Cajueiro Seco", "Recife", 57);
+    
     metro_recife.printar();
 
     cout << "\n----------DFS----------\n\n";

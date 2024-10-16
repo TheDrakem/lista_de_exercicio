@@ -1,3 +1,0 @@
-C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OrganizacaoAgenda/cmake-build-debug/CMakeFiles/OrganizacaoAgenda.dir
-C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OrganizacaoAgenda/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OrganizacaoAgenda/cmake-build-debug/CMakeFiles/rebuild_cache.dir

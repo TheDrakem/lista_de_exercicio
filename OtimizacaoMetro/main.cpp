@@ -311,6 +311,7 @@ public:
 int main() {
     Grafo metro_recife (29);
 
+    // Adjacências baseadas no site https://www.metrorecife.com.br
     metro_recife.add_aresta("Recife", "Joana Bezerra", 5);
     metro_recife.add_aresta("Recife", "Cajueiro Seco", 70);
     metro_recife.add_aresta("Recife", "Camaragibe", 83);

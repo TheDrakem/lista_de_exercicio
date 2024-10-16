@@ -37,9 +37,9 @@
             seguida, adicione mais três novos eventos sugeridos abaixo e reorganize a
             lista.
 
-            **Olha! Recife Noturno - Tour Histórico:** 01/10/2024, 21:00
-            **Olha! Recife Pedalando - Antigos Cinemas do Recife:** 29/09/2024, 09:00
-            **Olha! Recife de Barco - Passeio no Capibaribe:** 26/09/2024, 12:00
+            Olha! Recife Noturno - Tour Histórico: 01/10/2024, 21:00
+            Olha! Recife Pedalando - Antigos Cinemas do Recife: 29/09/2024, 09:00
+            Olha! Recife de Barco - Passeio no Capibaribe: 26/09/2024, 12:00
 
         c) Meça e compare o tempo de execução de cada algoritmo ao reorganizar
             a lista quando novos eventos são adicionados.

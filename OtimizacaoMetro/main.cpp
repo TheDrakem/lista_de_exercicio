@@ -311,7 +311,7 @@ public:
 int main() {
     Grafo metro_recife (29);
 
-        metro_recife.add_aresta("Recife", "Joana Bezerra", 5);
+    metro_recife.add_aresta("Recife", "Joana Bezerra", 5);
     metro_recife.add_aresta("Recife", "Cajueiro Seco", 70);
     metro_recife.add_aresta("Recife", "Camaragibe", 83);
     metro_recife.add_aresta("Recife", "Jaboatao", 74);
@@ -470,7 +470,7 @@ int main() {
 }
 /*
 2. 
-A) 
+A) Considerando o tempo de viagem como peso das arestas o Dijkstra fornece a rota mais eficiente
 
 B) Quando todas as conexões têm o mesmo tempo o BFS é o melhor algoritmo 
 pois ele explora os vértices do grafo por camadas, o que garante que o caminho

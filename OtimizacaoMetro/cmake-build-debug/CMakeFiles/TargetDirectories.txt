@@ -1,0 +1,3 @@
+C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OtimizacaoMetro/cmake-build-debug/CMakeFiles/OtimizacaoMetro.dir
+C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OtimizacaoMetro/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tiago.DESKTOP-2RJEFDB/Downloads/c++/OtimizacaoMetro/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -468,3 +468,14 @@ int main() {
 
     return 0;
 }
+/*
+2. 
+A) 
+
+B) Quando todas as conexões têm o mesmo tempo o BFS é o melhor algoritmo 
+pois ele explora os vértices do grafo por camadas, o que garante que o caminho
+encontrado entre um vértice inicial e qualquer outroserá o mais curto em termos de número de arestas.
+ 
+C) O Dijkstra é o algoritmo mais adequado para encontrar o caminho mais curto em grafos ponderados onde
+as arestas têm pesos diferentes. Ele considera os pesos das arestas ao calcular o menor caminho, garantindo
+que o caminho encontrado seja aquele com o menor custo total.*/

@@ -72,7 +72,7 @@ void printar(vector<Evento> &eventos) {
              << evento.dia << "/" << evento.mes << "/" << evento.ano
              << ", " << evento.hora << ":" << (evento.minuto < 10 ? "0" : "") << evento.minuto << " h" << endl;
     }
-    cout <<"!"<< endl;
+    cout <<endl<<"tempo de execução: ";
 }
 
 void Merge(vector<Evento> &vetor ,vector<Evento> &MetadeEsq, vector<Evento> &MetadeDir,int tamanhoEsq,int tamanhoDir){
